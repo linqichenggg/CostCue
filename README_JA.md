@@ -6,17 +6,17 @@
 
 ### 次の更新を、ひと目で把握。
 
-[![Version](https://img.shields.io/github/v/release/linqichenggg/CostCue-Releases?color=blue&label=version)](https://github.com/linqichenggg/CostCue-Releases/releases/latest)
-[![Platform](https://img.shields.io/badge/platform-macOS%2014%2B-lightgrey.svg)](https://github.com/linqichenggg/CostCue-Releases/releases/latest)
-[![Architecture](https://img.shields.io/badge/architecture-Apple%20Silicon%20%7C%20Intel-blue.svg)](https://github.com/linqichenggg/CostCue-Releases/releases/latest)
+[![Version](https://img.shields.io/github/v/release/linqichenggg/CostCue?color=blue&label=version)](https://github.com/linqichenggg/CostCue/releases/latest)
+[![Platform](https://img.shields.io/badge/platform-macOS%2014%2B-lightgrey.svg)](https://github.com/linqichenggg/CostCue/releases/latest)
+[![Architecture](https://img.shields.io/badge/architecture-Apple%20Silicon%20%7C%20Intel-blue.svg)](https://github.com/linqichenggg/CostCue/releases/latest)
 [![Languages](https://img.shields.io/badge/languages-中文%20%7C%20English%20%7C%20日本語-green.svg)](#対応言語)
-[![Downloads](https://img.shields.io/github/downloads/linqichenggg/CostCue-Releases/total)](https://github.com/linqichenggg/CostCue-Releases/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/linqichenggg/CostCue/total)](https://github.com/linqichenggg/CostCue/releases/latest)
 
 [English](README.md) | [简体中文](README_ZH.md) | 日本語
 
 </div>
 
-> **ダウンロード：** 公式 [GitHub Releases](https://github.com/linqichenggg/CostCue-Releases/releases/latest) から CostCue v1.0.0 を入手できます。
+> **ダウンロード：** 公式 [GitHub Releases](https://github.com/linqichenggg/CostCue/releases/latest) から CostCue v1.0.0 を入手できます。
 
 ## CostCue が必要な理由
 
@@ -48,7 +48,7 @@ CostCue は、これらの情報を一つのネイティブ Mac アプリにま�
 
 ### 無料コミュニティ版
 
-CostCue は [GitHub Releases](https://github.com/linqichenggg/CostCue-Releases/releases) から無料で配布しています。最新の `CostCue-*-community.dmg` をダウンロードして開き、`CostCue.app` を「アプリケーション」フォルダへドラッグしてください。
+CostCue は [GitHub Releases](https://github.com/linqichenggg/CostCue/releases) から無料で配布しています。最新の `CostCue-*-community.dmg` をダウンロードして開き、`CostCue.app` を「アプリケーション」フォルダへドラッグしてください。
 
 無料コミュニティ版はアドホック署名を使用し、Apple の公証はまだ取得していません。初回起動時に macOS からブロックされた場合は、「システム設定 → プライバシーとセキュリティ」で「このまま開く」を選択します。各リリースには確認用の SHA-256 チェックサムを掲載します。
 
@@ -110,7 +110,7 @@ CostCue は簡体字中国語、英語、日本語に対応しています。初
 
 ## フィードバック
 
-再現可能な不具合や製品改善の提案は [GitHub Issues](https://github.com/linqichenggg/CostCue-Releases/issues) から送信できます。
+再現可能な不具合や製品改善の提案は [GitHub Issues](https://github.com/linqichenggg/CostCue/issues) から送信できます。
 
 ## 著作権
 

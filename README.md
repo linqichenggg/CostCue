@@ -6,17 +6,17 @@
 
 ### Know what renews next.
 
-[![Version](https://img.shields.io/github/v/release/linqichenggg/CostCue-Releases?color=blue&label=version)](https://github.com/linqichenggg/CostCue-Releases/releases/latest)
-[![Platform](https://img.shields.io/badge/platform-macOS%2014%2B-lightgrey.svg)](https://github.com/linqichenggg/CostCue-Releases/releases/latest)
-[![Architecture](https://img.shields.io/badge/architecture-Apple%20Silicon%20%7C%20Intel-blue.svg)](https://github.com/linqichenggg/CostCue-Releases/releases/latest)
+[![Version](https://img.shields.io/github/v/release/linqichenggg/CostCue?color=blue&label=version)](https://github.com/linqichenggg/CostCue/releases/latest)
+[![Platform](https://img.shields.io/badge/platform-macOS%2014%2B-lightgrey.svg)](https://github.com/linqichenggg/CostCue/releases/latest)
+[![Architecture](https://img.shields.io/badge/architecture-Apple%20Silicon%20%7C%20Intel-blue.svg)](https://github.com/linqichenggg/CostCue/releases/latest)
 [![Languages](https://img.shields.io/badge/languages-中文%20%7C%20English%20%7C%20日本語-green.svg)](#languages)
-[![Downloads](https://img.shields.io/github/downloads/linqichenggg/CostCue-Releases/total)](https://github.com/linqichenggg/CostCue-Releases/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/linqichenggg/CostCue/total)](https://github.com/linqichenggg/CostCue/releases/latest)
 
 English | [简体中文](README_ZH.md) | [日本語](README_JA.md)
 
 </div>
 
-> **Download:** [CostCue v1.0.0](https://github.com/linqichenggg/CostCue-Releases/releases/latest) from the official GitHub Releases page.
+> **Download:** [CostCue v1.0.0](https://github.com/linqichenggg/CostCue/releases/latest) from the official GitHub Releases page.
 
 ## Why CostCue?
 
@@ -48,7 +48,7 @@ CostCue brings those records into one native Mac app. Add subscriptions manually
 
 ### Free community build
 
-CostCue is distributed free of charge from the [GitHub Releases](https://github.com/linqichenggg/CostCue-Releases/releases) page. Download the latest `CostCue-*-community.dmg`, open it, and drag `CostCue.app` into `Applications`.
+CostCue is distributed free of charge from the [GitHub Releases](https://github.com/linqichenggg/CostCue/releases) page. Download the latest `CostCue-*-community.dmg`, open it, and drag `CostCue.app` into `Applications`.
 
 The free community build uses an ad-hoc code signature and has not been notarized by Apple. On first launch, macOS may require you to open **System Settings → Privacy & Security** and choose **Open Anyway**. Each release includes a SHA-256 checksum for verification.
 
@@ -110,7 +110,7 @@ Yes. The most recent renewal can be undone safely, restoring the previous renewa
 
 ## Feedback
 
-Use [GitHub Issues](https://github.com/linqichenggg/CostCue-Releases/issues) to report reproducible problems or request product improvements.
+Use [GitHub Issues](https://github.com/linqichenggg/CostCue/issues) to report reproducible problems or request product improvements.
 
 ## Copyright
 

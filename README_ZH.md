@@ -6,17 +6,17 @@
 
 ### 清楚掌握下一笔续费。
 
-[![版本](https://img.shields.io/github/v/release/linqichenggg/CostCue-Releases?color=blue&label=版本)](https://github.com/linqichenggg/CostCue-Releases/releases/latest)
-[![平台](https://img.shields.io/badge/平台-macOS%2014%2B-lightgrey.svg)](https://github.com/linqichenggg/CostCue-Releases/releases/latest)
-[![架构](https://img.shields.io/badge/架构-Apple%20Silicon%20%7C%20Intel-blue.svg)](https://github.com/linqichenggg/CostCue-Releases/releases/latest)
+[![版本](https://img.shields.io/github/v/release/linqichenggg/CostCue?color=blue&label=版本)](https://github.com/linqichenggg/CostCue/releases/latest)
+[![平台](https://img.shields.io/badge/平台-macOS%2014%2B-lightgrey.svg)](https://github.com/linqichenggg/CostCue/releases/latest)
+[![架构](https://img.shields.io/badge/架构-Apple%20Silicon%20%7C%20Intel-blue.svg)](https://github.com/linqichenggg/CostCue/releases/latest)
 [![语言](https://img.shields.io/badge/语言-中文%20%7C%20English%20%7C%20日本語-green.svg)](#语言)
-[![下载量](https://img.shields.io/github/downloads/linqichenggg/CostCue-Releases/total)](https://github.com/linqichenggg/CostCue-Releases/releases/latest)
+[![下载量](https://img.shields.io/github/downloads/linqichenggg/CostCue/total)](https://github.com/linqichenggg/CostCue/releases/latest)
 
 [English](README.md) | 简体中文 | [日本語](README_JA.md)
 
 </div>
 
-> **立即下载：** 从官方 [GitHub Releases](https://github.com/linqichenggg/CostCue-Releases/releases/latest) 获取 CostCue v1.0.0。
+> **立即下载：** 从官方 [GitHub Releases](https://github.com/linqichenggg/CostCue/releases/latest) 获取 CostCue v1.0.0。
 
 ## 为什么需要 CostCue？
 
@@ -48,7 +48,7 @@ CostCue 将这些记录集中到一款原生 Mac 应用中。你可以手动添�
 
 ### 免费社区版
 
-CostCue 通过 [GitHub Releases](https://github.com/linqichenggg/CostCue-Releases/releases) 免费提供。下载最新的 `CostCue-*-community.dmg`，打开后将 `CostCue.app` 拖入“应用程序”文件夹。
+CostCue 通过 [GitHub Releases](https://github.com/linqichenggg/CostCue/releases) 免费提供。下载最新的 `CostCue-*-community.dmg`，打开后将 `CostCue.app` 拖入“应用程序”文件夹。
 
 免费社区版使用临时代码签名，暂未购买 Apple Developer Program，也没有 Apple 公证票据。第一次打开时，macOS 可能要求进入“系统设置 → 隐私与安全性”，点击“仍要打开”。每个版本都会提供 SHA-256 校验值。
 
@@ -110,7 +110,7 @@ CostCue 支持简体中文、英语和日语。首次运行会根据 macOS 首�
 
 ## 反馈
 
-可以通过 [GitHub Issues](https://github.com/linqichenggg/CostCue-Releases/issues) 提交可复现的问题和产品改进建议。
+可以通过 [GitHub Issues](https://github.com/linqichenggg/CostCue/issues) 提交可复现的问题和产品改进建议。
 
 ## 版权
 
