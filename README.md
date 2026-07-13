@@ -16,7 +16,7 @@ English | [简体中文](README_ZH.md) | [日本語](README_JA.md)
 
 </div>
 
-> **Download:** [CostCue v1.0.0](https://github.com/linqichenggg/CostCue/releases/latest) from the official GitHub Releases page.
+> **Download:** [CostCue v1.0.1](https://github.com/linqichenggg/CostCue/releases/latest) from the official GitHub Releases page.
 
 ## Why CostCue?
 
@@ -37,6 +37,7 @@ CostCue brings those records into one native Mac app. Add subscriptions manually
 - **Local notifications** — Choose how many days before renewal CostCue should remind you. Clicking a notification opens the matching subscription.
 - **Safe backup and restore** — Export all subscriptions, payment history, exchange rates, pending plan changes, and custom icons to one `.costcue.json` file. Import conflicts are reviewed before anything is replaced.
 - **Custom products and icons** — Add services outside the built-in catalog with your own name and image.
+- **Built-in update checks** — Check manually from the CostCue menu or Settings. CostCue also checks the official stable release once per day at launch.
 - **Native macOS experience** — Built with Swift and SwiftUI, with App Sandbox, Hardened Runtime, keyboard shortcuts, light and dark appearance, and no embedded web interface.
 
 ## Download and Installation
@@ -64,7 +65,7 @@ Public releases contain the application packages and user documentation. The sou
 
 ## Data and Privacy
 
-CostCue has no account system, tracking, analytics, or advertising. Subscription data, payment history, preferences, and custom icons stay on the current Mac. Local notifications are scheduled by macOS, and backup import or export does not contact a server.
+CostCue has no account system, tracking, analytics, or advertising. Subscription data, payment history, preferences, and custom icons stay on the current Mac. Local notifications are scheduled by macOS, and backup import or export does not contact a server. Update checks only read public release metadata from GitHub and never upload subscription data.
 
 The SwiftData database is managed inside the app sandbox:
 
