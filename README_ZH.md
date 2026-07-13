@@ -16,7 +16,7 @@
 
 </div>
 
-> **立即下载：** 从官方 [GitHub Releases](https://github.com/linqichenggg/CostCue/releases/latest) 获取 CostCue v1.0.0。
+> **立即下载：** 从官方 [GitHub Releases](https://github.com/linqichenggg/CostCue/releases/latest) 获取 CostCue v1.0.1。
 
 ## 为什么需要 CostCue？
 
@@ -37,6 +37,7 @@ CostCue 将这些记录集中到一款原生 Mac 应用中。你可以手动添�
 - **本地续费通知**：自由选择提前几天提醒，点击通知可直接打开对应订阅。
 - **安全备份与恢复**：将订阅、付款历史、手动汇率、待生效套餐和自定义图标导出为一个 `.costcue.json` 文件；导入冲突会在覆盖前逐项确认。
 - **自定义产品与图标**：内置目录之外的服务可以自行设置名称和图片。
+- **应用内检查更新**：可以从 CostCue 菜单或设置手动检查；应用每天首次启动时也会检查一次官方稳定版本。
 - **原生 macOS 体验**：使用 Swift 与 SwiftUI 构建，具备应用沙盒、Hardened Runtime、快捷键、深浅色模式，不包含网页套壳界面。
 
 ## 下载与安装
@@ -50,7 +51,7 @@ CostCue 将这些记录集中到一款原生 Mac 应用中。你可以手动添�
 
 CostCue 通过 [GitHub Releases](https://github.com/linqichenggg/CostCue/releases) 免费提供。下载最新的 `CostCue-*-community.dmg`，打开后将 `CostCue.app` 拖入“应用程序”文件夹。
 
-免费社区版使用临时代码签名，暂未购买 Apple Developer Program，也没有 Apple 公证票据。第一次打开时，macOS 可能要求进入“系统设置 → 隐私与安全性”，点击“仍要打开”。每个版本都会提供 SHA-256 校验值。
+免费社区版使用临时代码签名，未附带 Apple 公证票据。第一次打开时，macOS 可能要求进入“系统设置 → 隐私与安全性”，点击“仍要打开”。每个版本都会提供 SHA-256 校验值。
 
 公开仓库只提供应用安装包和用户文档，源代码继续保留在私有开发仓库中。
 
@@ -64,7 +65,7 @@ CostCue 通过 [GitHub Releases](https://github.com/linqichenggg/CostCue/release
 
 ## 数据与隐私
 
-CostCue 没有账号系统、用户追踪、数据分析和广告。订阅记录、付款历史、偏好设置和自定义图标只保存在当前 Mac。本地通知由 macOS 安排，导入和导出备份时也不会连接服务器。
+CostCue 没有账号系统、用户追踪、数据分析和广告。订阅记录、付款历史、偏好设置和自定义图标只保存在当前 Mac。本地通知由 macOS 安排，导入和导出备份时也不会连接服务器。更新检查只读取 GitHub 的公开版本信息，不会上传订阅数据。
 
 SwiftData 数据库由系统管理在应用沙盒内：
 
