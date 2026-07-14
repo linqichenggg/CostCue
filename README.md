@@ -53,7 +53,7 @@ CostCue is distributed free of charge from the [GitHub Releases](https://github.
 
 When upgrading from v1.0.1, install v1.0.2 from the DMG once. Starting with v1.0.2, later releases can be downloaded, verified, and installed inside CostCue.
 
-The free community build uses an ad-hoc code signature and has not been notarized by Apple. On first launch, macOS may require you to open **System Settings → Privacy & Security** and choose **Open Anyway**. Each release includes a SHA-256 checksum for verification.
+The free community build uses an ad-hoc code signature and has not been notarized by Apple. On first launch, macOS may require you to open **System Settings → Privacy & Security** and choose **Open Anyway**. GitHub displays the SHA-256 digest beside each downloadable asset, and CostCue verifies automatic-update archives with an EdDSA signature before installation.
 
 Public releases contain the application packages and user documentation. The source code remains private.
 
