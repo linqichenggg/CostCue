@@ -3,57 +3,57 @@
     <channel>
         <title>CostCue</title>
         <item>
-            <title>1.0.3</title>
-            <pubDate>Tue, 14 Jul 2026 02:10:58 +0000</pubDate>
+            <title>1.0.4</title>
+            <pubDate>Tue, 14 Jul 2026 02:27:25 +0000</pubDate>
             <link>https://github.com/linqichenggg/CostCue</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/linqichenggg/CostCue/releases/tag/v1.0.3</sparkle:fullReleaseNotesLink>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:fullReleaseNotesLink>https://github.com/linqichenggg/CostCue/releases/tag/v1.0.4</sparkle:fullReleaseNotesLink>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# CostCue 1.0.3
+            <description sparkle:format="markdown"><![CDATA[# CostCue 1.0.4
 
 [简体中文](#简体中文) · [English](#english) · [日本語](#日本語)
 
 ## 简体中文
 
-### 内置产品目录
+### 续费提醒
 
-- 新增 WPS Office，包含官方产品图标、官网和会员中心入口。
-- “iRightMouse”在中文界面显示为“超级右键”，搜索中文名或英文名都能找到。
-- 内置产品目录现在包含 149 个带本地图标的产品。
+- 新建订阅时不再预选 1、3、7 天提醒，所有提醒选项默认关闭。
+- 更新后会清除旧版自带的默认提醒设置，已有订阅中保存的提醒日期保持不变。
+- 仍可在设置中主动选择新订阅的默认提醒组合，也可以为每项订阅单独设置。
 
 ### 说明
 
-- 本次更新不会修改或清除订阅、付款历史、设置和自定义图标。
+- 本次更新不会修改或清除订阅、付款历史和自定义图标；已有订阅的提醒日期也会保留。
 - 可以直接在 CostCue 内下载、验证并安装本次更新。
 
 ## English
 
-### Built-in Product Catalog
+### Renewal Reminders
 
-- Added WPS Office with its official product icon, website, and membership-center link.
-- iRightMouse appears as “超级右键” in the Simplified Chinese interface and remains searchable by either name.
-- The built-in catalog now contains 149 products with locally bundled icons.
+- New subscriptions no longer preselect the 1-, 3-, and 7-day reminders. Every reminder option starts turned off.
+- The update clears the old built-in reminder default while preserving reminder dates already saved on existing subscriptions.
+- You can still choose a default reminder set in Settings or configure reminders individually for each subscription.
 
 ### Notes
 
-- This update does not modify or remove subscriptions, payment history, preferences, or custom icons.
+- This update does not modify or remove subscriptions, payment history, or custom icons; reminder dates already saved on existing subscriptions are preserved.
 - The update can be downloaded, verified, and installed directly inside CostCue.
 
 ## 日本語
 
-### 内蔵製品カタログ
+### 更新通知
 
-- WPS Office を追加し、公式製品アイコン、Web サイト、会員センターへのリンクを収録しました。
-- 簡体字中国語の画面では iRightMouse を「超级右键」と表示し、中国語名と英語名のどちらでも検索できます。
-- ローカルに同梱されたアイコン付きの内蔵製品は 149 件になりました。
+- 新しいサブスクリプションでは、1日前・3日前・7日前の通知を事前選択せず、すべてオフの状態から始まります。
+- 旧バージョンに組み込まれていたデフォルト通知設定を解除し、既存のサブスクリプションに保存済みの通知日は維持します。
+- 設定画面で新規サブスクリプション用のデフォルト通知を選ぶことも、各サブスクリプションで個別に設定することもできます。
 
 ### 補足
 
-- この更新でサブスクリプション、支払い履歴、設定、カスタムアイコンが変更または削除されることはありません。
+- この更新でサブスクリプション、支払い履歴、カスタムアイコンが変更または削除されることはなく、既存のサブスクリプションに保存済みの通知日も維持されます。
 - CostCue 内でこの更新を直接ダウンロード、検証、インストールできます。
 ]]></description>
-            <enclosure url="https://github.com/linqichenggg/CostCue/releases/download/v1.0.3/CostCue-1.0.3-community.zip" length="6859008" type="application/octet-stream" sparkle:edSignature="gR83zhdkb6JWfcJlTz5Fce8T7Cch7bSHGVSvYX0h53dH1B7yyS6cnw+VpvWMvzmG0+AW5Mc1hM9Z3iwhYbtzDA=="/>
+            <enclosure url="https://github.com/linqichenggg/CostCue/releases/download/v1.0.4/CostCue-1.0.4-community.zip" length="6860490" type="application/octet-stream" sparkle:edSignature="jeI/PvQT8ig5+HK2uGa2G/ZTaf97OUfH20cOVZYdjadnhD1+4oY6NNgD4hZ5fqLS0fngEOnYHbjMfqhYQx5LDw=="/>
         </item>
     </channel>
 </rss>
