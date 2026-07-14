@@ -3,66 +3,57 @@
     <channel>
         <title>CostCue</title>
         <item>
-            <title>1.0.2</title>
-            <pubDate>Mon, 13 Jul 2026 16:41:50 +0000</pubDate>
+            <title>1.0.3</title>
+            <pubDate>Tue, 14 Jul 2026 02:10:58 +0000</pubDate>
             <link>https://github.com/linqichenggg/CostCue</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/linqichenggg/CostCue/releases/tag/v1.0.2</sparkle:fullReleaseNotesLink>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+            <sparkle:fullReleaseNotesLink>https://github.com/linqichenggg/CostCue/releases/tag/v1.0.3</sparkle:fullReleaseNotesLink>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# CostCue 1.0.2
+            <description sparkle:format="markdown"><![CDATA[# CostCue 1.0.3
 
 [简体中文](#简体中文) · [English](#english) · [日本語](#日本語)
 
 ## 简体中文
 
-### 应用内自动更新
+### 内置产品目录
 
-- 新版本可以在 CostCue 内自动下载、验证并安装。
-- 安装完成后由 CostCue 提示重新启动，不再需要打开 DMG 或拖动覆盖应用。
-- 更新包使用 EdDSA 签名验证，签名不匹配的文件不会被安装。
-- 默认每天检查一次稳定版本，并可在“CostCue → 检查更新”中随时手动检查。
-- 可以在“设置 → 应用信息”中开启或关闭“自动下载并安装”。
+- 新增 WPS Office，包含官方产品图标、官网和会员中心入口。
+- “iRightMouse”在中文界面显示为“超级右键”，搜索中文名或英文名都能找到。
+- 内置产品目录现在包含 149 个带本地图标的产品。
 
 ### 说明
 
-- 更新文件继续由 CostCue 官方 GitHub Releases 提供。
-- 更新检查不会上传订阅、付款历史或其他个人数据。
-- 从 1.0.1 升级到 1.0.2 仍需完成最后一次 DMG 安装；从 1.0.2 开始，后续版本可以直接在应用内安装。
+- 本次更新不会修改或清除订阅、付款历史、设置和自定义图标。
+- 可以直接在 CostCue 内下载、验证并安装本次更新。
 
 ## English
 
-### In-App Automatic Updates
+### Built-in Product Catalog
 
-- New versions can be downloaded, verified, and installed inside CostCue.
-- CostCue prompts for a restart after installation, with no DMG or drag-and-drop replacement required.
-- Update archives are verified with EdDSA signatures. Files with invalid signatures are rejected.
-- CostCue checks the stable channel once per day by default, with a manual Check for Updates command available at any time.
-- Automatic downloading and installation can be enabled or disabled in Settings → App Information.
+- Added WPS Office with its official product icon, website, and membership-center link.
+- iRightMouse appears as “超级右键” in the Simplified Chinese interface and remains searchable by either name.
+- The built-in catalog now contains 149 products with locally bundled icons.
 
 ### Notes
 
-- Update files continue to be delivered from the official CostCue GitHub Releases.
-- Update checks never upload subscriptions, payment history, or other personal data.
-- Updating from 1.0.1 to 1.0.2 requires one final DMG installation. Starting with 1.0.2, future versions can be installed inside the app.
+- This update does not modify or remove subscriptions, payment history, preferences, or custom icons.
+- The update can be downloaded, verified, and installed directly inside CostCue.
 
 ## 日本語
 
-### アプリ内自動アップデート
+### 内蔵製品カタログ
 
-- 新しいバージョンを CostCue 内で自動的にダウンロード、検証、インストールできます。
-- インストール後は CostCue が再起動を案内し、DMG を開いたりアプリをドラッグして置き換えたりする必要はありません。
-- 更新アーカイブは EdDSA 署名で検証され、署名が一致しないファイルはインストールされません。
-- 安定版を既定で 1 日 1 回確認し、「CostCue → アップデートを確認」からいつでも手動確認できます。
-- 「環境設定 → アプリ情報」で自動ダウンロードとインストールを切り替えられます。
+- WPS Office を追加し、公式製品アイコン、Web サイト、会員センターへのリンクを収録しました。
+- 簡体字中国語の画面では iRightMouse を「超级右键」と表示し、中国語名と英語名のどちらでも検索できます。
+- ローカルに同梱されたアイコン付きの内蔵製品は 149 件になりました。
 
 ### 補足
 
-- 更新ファイルは引き続き CostCue 公式 GitHub Releases から配布されます。
-- 更新確認でサブスクリプション、支払い履歴、その他の個人データがアップロードされることはありません。
-- 1.0.1 から 1.0.2 への更新では最後に一度だけ DMG でのインストールが必要です。1.0.2 以降のバージョンはアプリ内でインストールできます。
+- この更新でサブスクリプション、支払い履歴、設定、カスタムアイコンが変更または削除されることはありません。
+- CostCue 内でこの更新を直接ダウンロード、検証、インストールできます。
 ]]></description>
-            <enclosure url="https://github.com/linqichenggg/CostCue/releases/download/v1.0.2/CostCue-1.0.2-community.zip" length="6779881" type="application/octet-stream" sparkle:edSignature="bSLu10hRpD/dHwDsLazn4lQBw4dOVqUGcMXyCyRVZq5lVQOX421MCHkCDtXnlRKv/IhBw9EGE4qe0wkJZ0W0Aw=="/>
+            <enclosure url="https://github.com/linqichenggg/CostCue/releases/download/v1.0.3/CostCue-1.0.3-community.zip" length="6859008" type="application/octet-stream" sparkle:edSignature="gR83zhdkb6JWfcJlTz5Fce8T7Cch7bSHGVSvYX0h53dH1B7yyS6cnw+VpvWMvzmG0+AW5Mc1hM9Z3iwhYbtzDA=="/>
         </item>
     </channel>
 </rss>
