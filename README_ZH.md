@@ -16,7 +16,7 @@
 
 </div>
 
-> **立即下载：** 从官方 [GitHub Releases](https://github.com/linqichenggg/CostCue/releases/latest) 获取 CostCue v1.0.2。
+> **立即下载：** 从官方 [GitHub Releases](https://github.com/linqichenggg/CostCue/releases/latest) 获取 CostCue v1.0.3。
 
 ## 为什么需要 CostCue？
 
@@ -31,7 +31,7 @@ CostCue 将这些记录集中到一款原生 Mac 应用中。你可以手动添�
 ## 核心功能
 
 - **清晰的支出总览**：集中查看有效订阅、月均支出、年度预计、自动续订数量和近期扣款。
-- **148 个内置产品**：直接选择 ChatGPT、Claude、Gemini、Apple Music、Netflix、Notion、iCloud+ 等常见服务，全部图标支持离线显示。
+- **149 个内置产品**：直接选择 ChatGPT、Claude、Gemini、WPS Office、超级右键、Apple Music、Netflix、Notion、iCloud+ 等常见服务，全部图标支持离线显示。
 - **灵活的订阅周期**：支持月付、年付、自定义周期和一次性买断，并保留多币种原始金额。
 - **可靠的续费历史**：确认或撤销续费、修正历史付款，并安排套餐或价格变更，同时保留当时真实生效的信息。
 - **本地续费通知**：自由选择提前几天提醒，点击通知可直接打开对应订阅。
