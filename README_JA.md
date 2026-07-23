@@ -16,7 +16,7 @@
 
 </div>
 
-> **ダウンロード：** 公式 [GitHub Releases](https://github.com/linqichenggg/CostCue/releases/latest) から CostCue v1.0.4 を入手できます。
+> **ダウンロード：** 公式 [GitHub Releases](https://github.com/linqichenggg/CostCue/releases/latest) から CostCue v1.1.0 を入手できます。
 
 ## CostCue が必要な理由
 
@@ -31,6 +31,7 @@ CostCue は、これらの情報を一つのネイティブ Mac アプリにま�
 ## 主な機能
 
 - **分かりやすい支出概要** — 有効な契約、月平均、年間予測、自動更新、近日中の請求をまとめて確認できます。
+- **メニューバーの一覧** — 直近の更新をメニューバーに常時表示し、クリックすると未アーカイブの全サブスクリプションを確認して詳細を開けます。
 - **149 種類の内蔵サービス** — ChatGPT、Claude、Gemini、WPS Office、iRightMouse、Apple Music、Netflix、Notion、iCloud+ などをすぐに選択でき、アイコンはオフラインでも表示されます。
 - **柔軟な請求サイクル** — 月払い、年払い、カスタム間隔、買い切りに対応し、複数通貨の元金額を保持します。
 - **信頼できる更新履歴** — 更新の確定・取り消し、過去の支払い修正、プランや価格変更の予約を行っても、その時点の履歴を維持します。
