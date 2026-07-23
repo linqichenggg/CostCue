@@ -3,63 +3,45 @@
     <channel>
         <title>CostCue</title>
         <item>
-            <title>1.1.0</title>
-            <pubDate>Thu, 23 Jul 2026 08:14:39 +0000</pubDate>
+            <title>1.1.1</title>
+            <pubDate>Thu, 23 Jul 2026 08:51:05 +0000</pubDate>
             <link>https://github.com/linqichenggg/CostCue</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/linqichenggg/CostCue/releases/tag/v1.1.0</sparkle:fullReleaseNotesLink>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.1.0</sparkle:shortVersionString>
+            <sparkle:fullReleaseNotesLink>https://github.com/linqichenggg/CostCue/releases/tag/v1.1.1</sparkle:fullReleaseNotesLink>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# CostCue 1.1.0
+            <description sparkle:format="markdown"><![CDATA[# CostCue 1.1.1
 
 [简体中文](#简体中文) · [English](#english) · [日本語](#日本語)
 
 ## 简体中文
 
-### 菜单栏订阅清单
+### 菜单栏续费顺序修复
 
-- 菜单栏会显示距离现在最近的一笔续费，以及距离续费还有多久。
-- 点击菜单栏项目即可查看全部未归档订阅，包括产品图标、套餐、状态、价格和续费时间。
-- 点击任意订阅会打开 CostCue 并进入对应详情，也可以直接添加订阅。
-- 可在设置中随时关闭或重新开启菜单栏显示。
-
-### 说明
-
-- 本次更新不会修改或清除订阅、付款历史、自定义图标及提醒设置。
-- 菜单栏内容直接读取 CostCue 的本地数据库，无需账号或额外权限。
-- 可以直接在 CostCue 内下载、验证并安装本次更新。
+- 已经过期且尚未确认续订的记录不会继续占用菜单栏。
+- 菜单栏会自动跳到今天或未来最近的一笔续费。
+- 过期记录仍保留在订阅清单和付款历史中，不会被删除或修改。
+- 当没有待续费项目时，菜单栏显示 `CostCue`。
 
 ## English
 
-### Menu Bar Subscription List
+### Menu Bar Renewal Ordering Fix
 
-- The menu bar now shows the nearest renewal and how soon it is due.
-- Click the menu bar item to view every non-archived subscription with its icon, plan, status, price, and renewal timing.
-- Select any subscription to open its details in CostCue, or add a subscription directly from the panel.
-- The menu bar item can be turned off or restored at any time in Settings.
-
-### Notes
-
-- This update does not modify or remove subscriptions, payment history, custom icons, or reminder settings.
-- The menu bar reads directly from CostCue's local database and requires no account or additional permission.
-- The update can be downloaded, verified, and installed directly inside CostCue.
+- Past-due subscriptions no longer remain pinned in the menu bar when renewal has not been confirmed.
+- The menu bar automatically advances to the nearest renewal due today or later.
+- Past-due records remain available in the subscription list and payment history without being removed or changed.
+- When no upcoming renewal exists, the menu bar displays `CostCue`.
 
 ## 日本語
 
-### メニューバーのサブスクリプション一覧
+### メニューバーの更新順序を修正
 
-- メニューバーに直近の更新と、更新までの残り日数を表示します。
-- メニューバー項目をクリックすると、未アーカイブの全サブスクリプションをアイコン、プラン、状態、料金、更新時期とともに確認できます。
-- 各サブスクリプションから CostCue の詳細画面を開けるほか、パネルから直接追加できます。
-- メニューバー表示は設定画面でいつでもオフまたはオンにできます。
-
-### 補足
-
-- この更新でサブスクリプション、支払い履歴、カスタムアイコン、通知設定が変更または削除されることはありません。
-- メニューバーは CostCue のローカルデータベースを直接参照し、アカウントや追加権限は不要です。
-- CostCue 内でこの更新を直接ダウンロード、検証、インストールできます。
+- 更新を確定していない期限切れの項目が、メニューバーに残り続けないようになりました。
+- メニューバーは、今日以降で最も近い更新へ自動的に進みます。
+- 期限切れの記録は削除・変更されず、サブスクリプション一覧と支払い履歴に引き続き表示されます。
+- 今後の更新がない場合、メニューバーには `CostCue` と表示されます。
 ]]></description>
-            <enclosure url="https://github.com/linqichenggg/CostCue/releases/download/v1.1.0/CostCue-1.1.0-community.zip" length="6965434" type="application/octet-stream" sparkle:edSignature="yn6UdHR/DYRhM3+cGzQPF7zLXdbRgj2ygQhmOcKDjKWb0OXvJt9zTLloD1x2O1KG9Kt1GDfKXRHJkddnq1J0CQ=="/>
+            <enclosure url="https://github.com/linqichenggg/CostCue/releases/download/v1.1.1/CostCue-1.1.1-community.zip" length="6965196" type="application/octet-stream" sparkle:edSignature="8u8G3FdpWsyUakkvw3HQOc4CHifildc5wwIUTolhLcSgDE0bjBz9sYkr5L/dFouJRV5tZKSiQwCDMSfZcmQ+Cg=="/>
         </item>
     </channel>
 </rss>
