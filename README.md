@@ -16,7 +16,7 @@ English | [简体中文](README_ZH.md) | [日本語](README_JA.md)
 
 </div>
 
-> **Download:** [CostCue v1.0.4](https://github.com/linqichenggg/CostCue/releases/latest) from the official GitHub Releases page.
+> **Download:** [CostCue v1.1.0](https://github.com/linqichenggg/CostCue/releases/latest) from the official GitHub Releases page.
 
 ## Why CostCue?
 
@@ -31,6 +31,7 @@ CostCue brings those records into one native Mac app. Add subscriptions manually
 ## Highlights
 
 - **Clear spending overview** — See active subscriptions, monthly averages, annual estimates, automatic renewals, and upcoming charges.
+- **Menu bar subscription list** — Keep the nearest renewal visible in the menu bar, then click it to review every non-archived subscription or open its details.
 - **149 built-in products** — Choose familiar services such as ChatGPT, Claude, Gemini, WPS Office, iRightMouse, Apple Music, Netflix, Notion, and iCloud+, with icons available offline.
 - **Flexible subscriptions** — Record monthly, annual, custom-interval, and lifetime purchases in multiple currencies.
 - **Reliable renewal history** — Confirm or undo renewals, edit past payments, and schedule plan or price changes without losing historical details.
