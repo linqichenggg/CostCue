@@ -16,7 +16,7 @@ English | [简体中文](README_ZH.md) | [日本語](README_JA.md)
 
 </div>
 
-> **Download:** [CostCue v1.1.0](https://github.com/linqichenggg/CostCue/releases/latest) from the official GitHub Releases page.
+> **Download:** [CostCue v1.1.1](https://github.com/linqichenggg/CostCue/releases/latest) from the official GitHub Releases page.
 
 ## Why CostCue?
 
