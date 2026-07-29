@@ -16,7 +16,7 @@
 
 </div>
 
-> **ダウンロード：** 公式 [GitHub Releases](https://github.com/linqichenggg/CostCue/releases/latest) から CostCue v1.1.1 を入手できます。
+> **ダウンロード：** 公式 [GitHub Releases](https://github.com/linqichenggg/CostCue/releases/latest) から CostCue v1.1.2 を入手できます。
 
 ## CostCue が必要な理由
 

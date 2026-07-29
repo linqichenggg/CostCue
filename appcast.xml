@@ -3,45 +3,48 @@
     <channel>
         <title>CostCue</title>
         <item>
-            <title>1.1.1</title>
-            <pubDate>Thu, 23 Jul 2026 08:51:05 +0000</pubDate>
+            <title>1.1.2</title>
+            <pubDate>Wed, 29 Jul 2026 20:07:08 +0900</pubDate>
             <link>https://github.com/linqichenggg/CostCue</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/linqichenggg/CostCue/releases/tag/v1.1.1</sparkle:fullReleaseNotesLink>
-            <sparkle:version>7</sparkle:version>
-            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:fullReleaseNotesLink>https://github.com/linqichenggg/CostCue/releases/tag/v1.1.2</sparkle:fullReleaseNotesLink>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# CostCue 1.1.1
+            <description sparkle:format="markdown"><![CDATA[# CostCue 1.1.2
 
 [简体中文](#简体中文) · [English](#english) · [日本語](#日本語)
 
 ## 简体中文
 
-### 菜单栏续费顺序修复
+### 逾期续费日期选择
 
-- 已经过期且尚未确认续订的记录不会继续占用菜单栏。
-- 菜单栏会自动跳到今天或未来最近的一笔续费。
-- 过期记录仍保留在订阅清单和付款历史中，不会被删除或修改。
-- 当没有待续费项目时，菜单栏显示 `CostCue`。
+- 逾期订阅点击“确认已续费”时，会先询问本次续费日期如何计算。
+- 可以继续沿用原续费计划，也可以从今天重新开始一个完整周期。
+- 两种选择都会明确展示本期范围和下次续费日期。
+- 月付、年付及自定义周期均支持该逻辑。
+- 撤销续费会恢复确认前的续费日期，付款历史和备份数据也会保留完整信息。
 
 ## English
 
-### Menu Bar Renewal Ordering Fix
+### Overdue Renewal Date Choice
 
-- Past-due subscriptions no longer remain pinned in the menu bar when renewal has not been confirmed.
-- The menu bar automatically advances to the nearest renewal due today or later.
-- Past-due records remain available in the subscription list and payment history without being removed or changed.
-- When no upcoming renewal exists, the menu bar displays `CostCue`.
+- Confirming an overdue renewal now asks how the renewed period should be calculated.
+- Keep the original billing schedule or start a full new period today.
+- Both choices clearly show the covered period and next renewal date.
+- Monthly, yearly, and custom billing intervals are supported.
+- Undo restores the renewal date from before confirmation, while payment history and backups retain the complete record.
 
 ## 日本語
 
-### メニューバーの更新順序を修正
+### 期限切れ更新の日付選択
 
-- 更新を確定していない期限切れの項目が、メニューバーに残り続けないようになりました。
-- メニューバーは、今日以降で最も近い更新へ自動的に進みます。
-- 期限切れの記録は削除・変更されず、サブスクリプション一覧と支払い履歴に引き続き表示されます。
-- 今後の更新がない場合、メニューバーには `CostCue` と表示されます。
+- 期限を過ぎたサブスクリプションで「更新済み」を確定すると、更新期間の計算方法を先に選べます。
+- 元の更新予定を維持する方法と、今日から新しい期間を開始する方法に対応しました。
+- どちらの選択肢にも今回の対象期間と次回更新日を表示します。
+- 月払い、年払い、カスタム周期に対応しています。
+- 更新を取り消すと確定前の更新日に戻り、支払い履歴とバックアップにも完全な情報が保存されます。
 ]]></description>
-            <enclosure url="https://github.com/linqichenggg/CostCue/releases/download/v1.1.1/CostCue-1.1.1-community.zip" length="6965196" type="application/octet-stream" sparkle:edSignature="8u8G3FdpWsyUakkvw3HQOc4CHifildc5wwIUTolhLcSgDE0bjBz9sYkr5L/dFouJRV5tZKSiQwCDMSfZcmQ+Cg=="/>
+            <enclosure url="https://github.com/linqichenggg/CostCue/releases/download/v1.1.2/CostCue-1.1.2-community.zip" length="7145796" type="application/octet-stream" sparkle:edSignature="lM+fFSiJJ+HwCYk6uF5GvMQYsBTXShBBmniKxQq3yVpHhCQkRn1vv94Yr1hJdgl2Uw9tQqPTcbbGASFP+LEkAg=="/>
         </item>
     </channel>
 </rss>

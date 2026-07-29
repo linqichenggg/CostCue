@@ -16,7 +16,7 @@
 
 </div>
 
-> **立即下载：** 从官方 [GitHub Releases](https://github.com/linqichenggg/CostCue/releases/latest) 获取 CostCue v1.1.1。
+> **立即下载：** 从官方 [GitHub Releases](https://github.com/linqichenggg/CostCue/releases/latest) 获取 CostCue v1.1.2。
 
 ## 为什么需要 CostCue？
 
