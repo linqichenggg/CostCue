@@ -3,45 +3,48 @@
     <channel>
         <title>CostCue</title>
         <item>
-            <title>1.1.3</title>
-            <pubDate>Wed, 29 Jul 2026 20:56:25 +0900</pubDate>
+            <title>1.1.4</title>
+            <pubDate>Wed, 29 Jul 2026 22:55:50 +0900</pubDate>
             <link>https://github.com/linqichenggg/CostCue</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/linqichenggg/CostCue/releases/tag/v1.1.3</sparkle:fullReleaseNotesLink>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
+            <sparkle:fullReleaseNotesLink>https://github.com/linqichenggg/CostCue/releases/tag/v1.1.4</sparkle:fullReleaseNotesLink>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.1.4</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# CostCue 1.1.3
+            <description sparkle:format="markdown"><![CDATA[# CostCue 1.1.4
 
 [简体中文](#简体中文) · [English](#english) · [日本語](#日本語)
 
 ## 简体中文
 
-### 菜单栏后台模式
+### 修复窗口与菜单栏行为
 
-- CostCue 不再占用程序坞空间，主窗口打开时也保持为菜单栏应用。
-- 点击主窗口红色关闭按钮后，CostCue 会继续在菜单栏运行并显示最近续费。
-- 点击菜单栏中的“打开 CostCue”可以随时重新打开主窗口。
-- 菜单栏面板新增“退出”，用于彻底关闭 CostCue。
+- CostCue 窗口打开时恢复标准 macOS 应用菜单，可从左上角进入“设置…”。
+- 关闭最后一个 CostCue 窗口后，程序坞图标自动隐藏，菜单栏续费信息继续运行。
+- 菜单栏面板新增“设置”按钮，即使主窗口已经关闭，也能直接打开设置。
+- 从菜单栏重新打开 CostCue 时，主窗口、程序坞图标和应用菜单会一起恢复。
+- 彻底关闭应用仍使用菜单栏面板中的“退出”。
 
 ## English
 
-### Menu Bar Background Mode
+### Window and Menu Bar Fixes
 
-- CostCue no longer occupies Dock space, including while its main window is open.
-- Closing the main window keeps CostCue running in the menu bar with the next renewal visible.
-- Use Open CostCue in the menu-bar panel to reopen the main window at any time.
-- The menu-bar panel now includes Quit for fully terminating CostCue.
+- The standard macOS app menu is restored while a CostCue window is open, including access to Settings.
+- Closing the last CostCue window hides its Dock icon while renewal information continues running in the menu bar.
+- The menu-bar panel now includes a Settings button that works even after the main window is closed.
+- Reopening CostCue from the menu bar restores the main window, Dock icon, and app menu together.
+- Use Quit in the menu-bar panel to fully terminate the app.
 
 ## 日本語
 
-### メニューバー常駐モード
+### ウインドウとメニューバーの修正
 
-- メインウインドウを開いている間も、CostCue は Dock の領域を使用しません。
-- ウインドウの赤い閉じるボタンを押しても、CostCue はメニューバーで動作し、直近の更新を表示し続けます。
-- メニューバーの「CostCue を開く」から、いつでもメインウインドウを再表示できます。
-- CostCue を完全に終了するための「終了」をメニューバーパネルに追加しました。
+- CostCue のウインドウを開いている間は標準の macOS アプリメニューが表示され、「設定…」を利用できます。
+- 最後の CostCue ウインドウを閉じると Dock アイコンが自動的に消え、更新情報はメニューバーで動作し続けます。
+- メインウインドウを閉じた後でも設定を直接開ける「設定」ボタンを、メニューバーパネルに追加しました。
+- メニューバーから CostCue を開き直すと、メインウインドウ、Dock アイコン、アプリメニューが同時に復元されます。
+- アプリを完全に終了する場合は、メニューバーパネルの「終了」を使用します。
 ]]></description>
-            <enclosure url="https://github.com/linqichenggg/CostCue/releases/download/v1.1.3/CostCue-1.1.3-community.zip" length="7154939" type="application/octet-stream" sparkle:edSignature="n2zwARwgY/9y5xeE/i6ixdfRJBHIXXxGYYI2UfqX1+5cqZQ8c9fQ0NpHoNhDBtbSluBbTm8P9lairIg+SdTNAA=="/>
+            <enclosure url="https://github.com/linqichenggg/CostCue/releases/download/v1.1.4/CostCue-1.1.4-community.zip" length="7166880" type="application/octet-stream" sparkle:edSignature="RX+qh3HSviJLnglBOHEq3LLIoWu3lnNBvV0vHrf6xMnjuESk4q/B2ob3I/2DqPMSEhXNfM0/gtqU6fVj2ywcAg=="/>
         </item>
     </channel>
 </rss>
