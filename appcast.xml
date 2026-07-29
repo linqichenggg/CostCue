@@ -3,48 +3,45 @@
     <channel>
         <title>CostCue</title>
         <item>
-            <title>1.1.2</title>
-            <pubDate>Wed, 29 Jul 2026 20:07:08 +0900</pubDate>
+            <title>1.1.3</title>
+            <pubDate>Wed, 29 Jul 2026 20:56:25 +0900</pubDate>
             <link>https://github.com/linqichenggg/CostCue</link>
-            <sparkle:fullReleaseNotesLink>https://github.com/linqichenggg/CostCue/releases/tag/v1.1.2</sparkle:fullReleaseNotesLink>
-            <sparkle:version>8</sparkle:version>
-            <sparkle:shortVersionString>1.1.2</sparkle:shortVersionString>
+            <sparkle:fullReleaseNotesLink>https://github.com/linqichenggg/CostCue/releases/tag/v1.1.3</sparkle:fullReleaseNotesLink>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.1.3</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# CostCue 1.1.2
+            <description sparkle:format="markdown"><![CDATA[# CostCue 1.1.3
 
 [简体中文](#简体中文) · [English](#english) · [日本語](#日本語)
 
 ## 简体中文
 
-### 逾期续费日期选择
+### 菜单栏后台模式
 
-- 逾期订阅点击“确认已续费”时，会先询问本次续费日期如何计算。
-- 可以继续沿用原续费计划，也可以从今天重新开始一个完整周期。
-- 两种选择都会明确展示本期范围和下次续费日期。
-- 月付、年付及自定义周期均支持该逻辑。
-- 撤销续费会恢复确认前的续费日期，付款历史和备份数据也会保留完整信息。
+- CostCue 不再占用程序坞空间，主窗口打开时也保持为菜单栏应用。
+- 点击主窗口红色关闭按钮后，CostCue 会继续在菜单栏运行并显示最近续费。
+- 点击菜单栏中的“打开 CostCue”可以随时重新打开主窗口。
+- 菜单栏面板新增“退出”，用于彻底关闭 CostCue。
 
 ## English
 
-### Overdue Renewal Date Choice
+### Menu Bar Background Mode
 
-- Confirming an overdue renewal now asks how the renewed period should be calculated.
-- Keep the original billing schedule or start a full new period today.
-- Both choices clearly show the covered period and next renewal date.
-- Monthly, yearly, and custom billing intervals are supported.
-- Undo restores the renewal date from before confirmation, while payment history and backups retain the complete record.
+- CostCue no longer occupies Dock space, including while its main window is open.
+- Closing the main window keeps CostCue running in the menu bar with the next renewal visible.
+- Use Open CostCue in the menu-bar panel to reopen the main window at any time.
+- The menu-bar panel now includes Quit for fully terminating CostCue.
 
 ## 日本語
 
-### 期限切れ更新の日付選択
+### メニューバー常駐モード
 
-- 期限を過ぎたサブスクリプションで「更新済み」を確定すると、更新期間の計算方法を先に選べます。
-- 元の更新予定を維持する方法と、今日から新しい期間を開始する方法に対応しました。
-- どちらの選択肢にも今回の対象期間と次回更新日を表示します。
-- 月払い、年払い、カスタム周期に対応しています。
-- 更新を取り消すと確定前の更新日に戻り、支払い履歴とバックアップにも完全な情報が保存されます。
+- メインウインドウを開いている間も、CostCue は Dock の領域を使用しません。
+- ウインドウの赤い閉じるボタンを押しても、CostCue はメニューバーで動作し、直近の更新を表示し続けます。
+- メニューバーの「CostCue を開く」から、いつでもメインウインドウを再表示できます。
+- CostCue を完全に終了するための「終了」をメニューバーパネルに追加しました。
 ]]></description>
-            <enclosure url="https://github.com/linqichenggg/CostCue/releases/download/v1.1.2/CostCue-1.1.2-community.zip" length="7145796" type="application/octet-stream" sparkle:edSignature="lM+fFSiJJ+HwCYk6uF5GvMQYsBTXShBBmniKxQq3yVpHhCQkRn1vv94Yr1hJdgl2Uw9tQqPTcbbGASFP+LEkAg=="/>
+            <enclosure url="https://github.com/linqichenggg/CostCue/releases/download/v1.1.3/CostCue-1.1.3-community.zip" length="7154939" type="application/octet-stream" sparkle:edSignature="n2zwARwgY/9y5xeE/i6ixdfRJBHIXXxGYYI2UfqX1+5cqZQ8c9fQ0NpHoNhDBtbSluBbTm8P9lairIg+SdTNAA=="/>
         </item>
     </channel>
 </rss>
